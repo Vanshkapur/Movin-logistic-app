@@ -1,0 +1,80 @@
+  .tracking-container {
+    display: flex;
+    margin: 30px;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    background-color: #ffffff; /* White background for the form */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .tracking-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 50%;
+  }
+  
+  .tracking-options {
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 20px;
+  }
+  
+  .tracking-options label {
+    margin-right: 20px;
+    font-size: 1rem;
+  }
+  
+  .tracking-input {
+    margin-bottom: 20px;
+  }
+  
+  .tracking-input label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 1rem;
+  }
+  
+  .tracking-input input {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .track-button {
+    background-color: #0d6efd; /* Bootstrap primary color */
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .track-button:hover {
+    background-color: #0b5ed7;
+  }
+  
+  .promo-text {
+    text-align: right;
+    width: 50%;
+  }
+  
+  .promo-text h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+    color: #333;
+    font-weight: bold;
+  }
+  
+  .promo-text p {
+    font-size: 1.5rem;
+    color: #333;
+    font-weight: bold;
+  }
+  

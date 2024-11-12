@@ -1,0 +1,25 @@
+.My-order-button {
+  background-color: #007bff; 
+  color: #fff; 
+  text-decoration: none;
+  display: block; 
+  padding: 10px 20px;
+  font-size: 1rem;
+  border: none; 
+  border-radius: 5px; 
+  cursor: pointer; 
+  margin-top: 20px; 
+  /* margin-right: auto ; */
+  
+}
+
+.create-order-container {
+  display: flex;         
+  align-items:flex-start;   
+  justify-content:baseline;
+  max-width: 960px;     
+  margin: 20px auto;   
+  padding: 20px;
+  background-color: #fff; 
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}

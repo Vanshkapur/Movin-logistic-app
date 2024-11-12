@@ -1,0 +1,112 @@
+.navbar {
+  width: 100%;
+  background-color: #ffffff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 10px 0;
+
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+  width: 100%;
+}
+
+.navbar-brand {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  max-height: 50px; /* Adjust the height of the logo */
+  display: block;
+}
+
+.navbar-nav {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-grow: 1;
+  margin-left: 50px; /* Add space between logo and navigation */
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #333;
+  font-size: 1rem;
+  font-weight: 600;
+  position: relative;
+}
+
+.nav-link:hover {
+  color: #007bff;
+}
+
+.dropdown-arrow {
+  font-size: 0.8rem;
+  margin-left: 5px; /* Space between the text and arrow */
+}
+
+.navbar-contact {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.contact-number {
+  display: flex;
+  align-items: center;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #333;
+}
+
+.contact-number i {
+  margin-right: 5px;
+  font-size: 1.2rem; /* Adjust icon size */
+}
+
+.signup-button {
+  background-color: #ffffff;
+  color: #333;
+  padding: 8px 15px;
+  border: 1px solid #333;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.signup-button:hover {
+  background-color: #333;
+  color: #ffffff;
+}
+
+.navbar .nav-link:last-child {
+  margin-left: 10px;
+}
+
+.logout-button {
+  background-color: #ffffff;
+  color: #333;
+  padding: 8px 15px;
+  border: 1px solid #333;
+  border-radius: 5px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.logout-button:hover {
+  background-color: #333;
+  color: #ffffff;
+}
+
+.navbar-contact .logout-button {
+  margin-left: 10px;
+}

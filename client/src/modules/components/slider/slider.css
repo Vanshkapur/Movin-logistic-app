@@ -1,0 +1,41 @@
+@keyframes loop {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  /* background-color: #fff; Set background color if needed */
+}
+
+.marquee {
+  display: flex;
+  width: 100vw;
+  overflow: hidden;
+  background-color: orange;
+  padding: 10px 0;
+  white-space: nowrap;
+  color: black;
+}
+
+.marquee-content {
+  display: inline-block;
+  padding-right: 100%; /* To ensure it goes out of view */
+  animation-name: loop;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-direction: normal;
+  animation-duration: 60s; /* Adjust the speed here */
+  font-family: 'robotoregular', Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  width: 100%; /* Ensure content spans the width of the container */
+}

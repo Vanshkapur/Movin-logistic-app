@@ -1,0 +1,42 @@
+.order-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #fff;
+}
+
+.order-details h3 {
+  margin: 0;
+  font-size: 1.2rem;
+}
+
+.order-details p {
+  margin: 5px 0 0;
+  color: #666;
+}
+
+.order-arrow {
+  font-size: 1.5rem;
+  color: #007bff;
+}
+
+.order-list {
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.order-list h2 {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+  text-align: left;
+  color: #333;
+}
